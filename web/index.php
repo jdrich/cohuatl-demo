@@ -4,7 +4,7 @@ if (preg_match('/\.(png|jpg|jpeg|gif|css|js)$/', $_SERVER['REQUEST_URI'])) {
     return false;
 }
 
-require_once '../autoload.php';
+require_once '../vendor/autoload.php';
 
 session_start();
 
