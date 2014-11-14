@@ -1,0 +1,17 @@
+{
+    "name": "jdrich/cohuatl-demo",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jdrich/cohuatl"
+        }
+    ],
+    "require": {
+        "jdrich/cohuatl": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}
